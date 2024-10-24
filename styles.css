@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.hero {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa0x2yICNZ35kgLheZRF53P6qbtr671581Qg&usqp=CAU);
+    background-size: cover; 
+    background-position: center; 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 20px;
+    height: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.features {
+    padding: 20px;
+    text-align: center;
+}
+
+.movie-gallery img {
+    margin: 10px;
+    width: 150px;
+    height: 220px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
